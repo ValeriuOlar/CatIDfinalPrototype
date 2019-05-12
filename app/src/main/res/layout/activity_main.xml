@@ -6,35 +6,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".MainActivity">
-    <LinearLayout
-            android:id="@+id/header"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:gravity="center_horizontal"
-            android:background="@color/light_background"
-            android:orientation="horizontal" >
-
-        <ImageButton
-                android:id="@+id/photo_library_button"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:background="@drawable/ic_photo_library"
-                android:backgroundTint="@color/control_background"
-        />
-
-        <ImageButton
-                android:id="@+id/photo_camera_button"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:background="@drawable/ic_photo_camera"
-                android:backgroundTint="@color/control_background"
-        />
-
-    </LinearLayout>
-
 
 
 </RelativeLayout>
